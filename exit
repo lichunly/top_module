@@ -1,0 +1,26 @@
+[1mdiff --git a/.gitmodules b/.gitmodules[m
+[1mnew file mode 100644[m
+[1mindex 0000000..342b365[m
+[1m--- /dev/null[m
+[1m+++ b/.gitmodules[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m[submodule "sub_module_1"][m
+[32m+[m	[32mpath = sub_module_1[m
+[32m+[m	[32murl = https://github.com/lichunly/sub_module_1.git[m
+[32m+[m[32m[submodule "sub_module_2"][m
+[32m+[m	[32mpath = sub_module_2[m
+[32m+[m	[32murl = https://github.com/lichunly/sub_module_2.git[m
+[1mdiff --git a/sub_module_1 b/sub_module_1[m
+[1mnew file mode 160000[m
+[1mindex 0000000..037cb8a[m
+[1m--- /dev/null[m
+[1m+++ b/sub_module_1[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit 037cb8a389b6e36cb13e03d1ef9953275a77a11f[m
+[1mdiff --git a/sub_module_2 b/sub_module_2[m
+[1mnew file mode 160000[m
+[1mindex 0000000..db34150[m
+[1m--- /dev/null[m
+[1m+++ b/sub_module_2[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit db3415028bac4bfed9f0410635cb0bcc81e8e4bb[m
